@@ -9,7 +9,7 @@ development:
   database: sampleapp_dev
   pool: 5
   username: dev
-  password: 
+  password: dev
 #  adapter: sqlite3
 #  database: db/development.sqlite3
 #  pool: 5
@@ -24,7 +24,7 @@ test: &test
   database: sampleapp_test
   pool: 5
   username: dev
-  password: 
+  password: dev
 
 production:
   adapter: postgresql
