@@ -1,9 +1,8 @@
 source 'https://rubygems.org'
 
-#gem 'sqlite3', '1.3.5'
 gem 'rails', '3.2.13'
 gem 'pg', '0.12.2'
-gem 'taps'
+gem 'bootstrap-sass', '2.1'
 
 group :development, :test do
   gem 'rspec-rails', '2.11.0'
@@ -29,3 +28,7 @@ group :test do
   gem 'rb-notifu', '0.0.4'
   gem 'win32console', '1.3.0'
 end 
+
+# Old gems I don't want to or need to use anymore
+#gem 'sqlite3', '1.3.5'
+#gem 'taps'
